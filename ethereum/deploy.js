@@ -1,11 +1,11 @@
 const HDWalletProvider = require("@truffle/hdwallet-provider");
 const Web3 = require("web3");
 const compiledFactory = require('./build/CampaignFactory.json');
-const {
-    mneumonic, inboxInfraID
-} = require("./secrets");
 
-const provider = new HDWalletProvider(mneumonic, inboxInfraID);
+const provider = new HDWalletProvider(
+  process.env.MNEUMONIC,
+  process.env.INFRA_ID
+);
 const web3 = new Web3(provider);
 
 const deploy = async () => {
