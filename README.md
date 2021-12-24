@@ -19,7 +19,7 @@ A demo crowdfunding application using Ethereum.
 * @truffle/hdwallet-provider v1.7.0
 
 ## Campaigns Page (home page)
-![](assets/campaignIndex.png)
+![](assets/campaignsIndex.png)
 
 ## Campaign Details Page
 ![](assets/campaignShow.png)
