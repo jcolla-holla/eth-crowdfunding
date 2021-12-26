@@ -1,6 +1,6 @@
 A demo crowdfunding application using Ethereum. Note: currently it's necessary to have [Metamask](https://metamask.io/) downloaded to connect your Ethereum wallet on the Rinkeby network.
 
-## [Access here](https://eth-crowdfunding-9hyks3l5k-jcolla-holla.vercel.app/)
+## [Demo](https://eth-crowdfunding-os7opv7kx-jcolla-holla.vercel.app/)
 
 ## Features
 * A user (Campaign Manager) starts a crowdfunding campaign
